@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlayMax - Unlimited Movies & TV Shows</title>
+    <meta name="description" content="Watch unlimited movies and TV shows on PlayMax. Enjoy high-quality streaming with no login required.">
+    <meta name="keywords" content="movies, TV shows, streaming, free movies, PlayMax, watch online">
+    <meta name="author" content="Amarjit Sen">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #111;
+            color: white;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 30px;
+            background-color: #000;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: red;
+        }
+        .menu {
+            display: flex;
+            align-items: center;
+        }
+        .menu a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        .search-bar {
+            margin-left: 15px;
+        }
+        .search-bar input {
+            padding: 5px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: none;
+            outline: none;
+        }
+        .hero {
+            height: 60vh;
+            background: url('https://source.unsplash.com/1600x900/?movie') no-repeat center center/cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 50px;
+            margin-bottom: 10px;
+        }
+        .hero button {
+            padding: 15px 30px;
+            font-size: 20px;
+            background: red;
+            border: none;
+            color: white;
+            cursor: pointer;
+        }
+        .movies {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .movie-card {
+            width: 200px;
+            margin: 10px;
+            text-align: center;
+        }
+        .movie-card img {
+            width: 100%;
+            border-radius: 8px;
+            transition: transform 0.3s;
+        }
+        .movie-card img:hover {
+            transform: scale(1.1);
+        }
+        .download-link {
+            margin-top: 10px;
+        }
+        .download-link a {
+            color: yellow;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .admin-login {
+            padding: 3px 6px;
+            font-size: 14px;
+            background: red;
+            border: none;
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+    <script>
+        function checkAdminLogin() {
+            var password = prompt("Enter Admin Password:");
+            if (password === "Amarjit@420") {
+                document.getElementById("admin-panel").style.display = "block";
+            } else {
+                alert("Incorrect Password!");
+            }
+        }
+        function addMovie() {
+            var title = prompt("Enter Movie Title:");
+            var imageUrl = prompt("Enter Thumbnail URL:");
+            var downloadUrl = prompt("Enter Download Link:");
+            
+            if (title && imageUrl && downloadUrl) {
+                var movieContainer = document.getElementById("movie-list");
+                var movieCard = document.createElement("div");
+                movieCard.classList.add("movie-card");
+                movieCard.innerHTML = `
+                    <img src="${imageUrl}" alt="${title}">
+                    <p>${title}</p>
+                    <div class="download-link"><a href="${downloadUrl}" target="_blank">Download</a></div>
+                `;
+                movieContainer.appendChild(movieCard);
+            } else {
+                alert("All fields are required!");
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">PlayMax</div>
+        <div class="menu">
+            <a href="#">Home</a>
+            <a href="#">Movies</a>
+            <a href="#">TV Shows</a>
+            <a href="#">Categories</a>
+            <a href="#">Web Series</a>
+            <div class="search-bar">
+                <input type="text" placeholder="Search movies...">
+            </div>
+            <button class="admin-login" onclick="checkAdminLogin()">Admin</button>
+        </div>
+    </div>
+    <div class="hero">
+        <h1>Welcome to PlayMax</h1>
+        <p>Unlimited Movies, TV Shows & More</p>
+        <button>Start Watching</button>
+    </div>
+    <div class="movies" id="movie-list">
+        <div class="movie-card">
+            <img src="https://source.unsplash.com/200x300/?action-movie" alt="Movie 1">
+            <p>Action Movie</p>
+            <div class="download-link"><a href="#">Download</a></div>
+        </div>
+        <div class="movie-card">
+            <img src="https://source.unsplash.com/200x300/?horror-movie" alt="Movie 2">
+            <p>Horror Movie</p>
+            <div class="download-link"><a href="#">Download</a></div>
+        </div>
+        <div class="movie-card">
+            <img src="https://source.unsplash.com/200x300/?comedy-movie" alt="Movie 3">
+            <p>Comedy Movie</p>
+            <div class="download-link"><a href="#">Download</a></div>
+        </div>
+    </div>
+    <div id="admin-panel" style="display:none; text-align:center; margin-top:20px;">
+        <button onclick="addMovie()">Add New Movie</button>
+    </div>
+</body>
+</html>

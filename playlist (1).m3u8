@@ -1,0 +1,43 @@
+#EXTM3U
+#EXTINF:-1 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Cartoon_Network_Hindi.png" tvg-name="Cartoon Network Hindi" group-title="Kids",Cartoon Network Hindi
+https://jiotvmblive.cdn.jio.com/bpk-tv/CNHindi_BTS/output/index.mpd
+#EXTINF:-1 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Cartoon_Network_Tamil.png" tvg-name="Cartoon Network Tamil" group-title="Kids",Cartoon Network Tamil
+https://jiotvmblive.cdn.jio.com/bpk-tv/CartoonNetworkTamil_BTS/output/index.mpd
+#EXTINF:-1 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Cartoon_Network_Telugu.png" tvg-name="Cartoon Network Telugu" group-title="Kids",Cartoon Network Telugu
+https://jiotvmblive.cdn.jio.com/bpk-tv/CNTelugu_BTS/output/index.mpd
+#EXTINF:-1 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Disney_Channel.png" tvg-name="Disney Channel" group-title="Kids",Disney Channel
+https://jiotvmblive.cdn.jio.com/bpk-tv/Disney_Channel_BTS/output/index.mpd
+#EXTINF:-1 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Disney_International_HD.png" tvg-name="Disney International HD" group-title="Kids",Disney International HD
+https://jiotvmblive.cdn.jio.com/bpk-tv/Disney_International_HD_BTS/output/index.mpd
+#EXTINF:-1 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Disney_Junior.png" tvg-name="Disney Junior" group-title="Kids",Disney Junior
+https://jiotvmblive.cdn.jio.com/bpk-tv/Disney_Junior_BTS/output/index.mpd
+#EXTINF:-1 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Hungama.png" tvg-name="Hungama" group-title="Kids",Hungama
+https://jiotvmblive.cdn.jio.com/bpk-tv/Hungama_BTS/output/index.mpd
+#EXTINF:-1 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Nickelodeon_Jr.png" tvg-name="Nickelodeon Jr." group-title="Kids",Nickelodeon Jr.
+https://jiotvmblive.cdn.jio.com/bpk-tv/Nickelodeon_Jr_MOB/WDVLive/index.mpd
+#EXTINF:-1 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Pogo_Hindi.png" tvg-name="Pogo Hindi" group-title="Kids",Pogo Hindi
+https://jiotvmblive.cdn.jio.com/bpk-tv/Pogo_Hindi_BTS/output/index.mpd
+#EXTINF:-1 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Pogo_Tamil.png" tvg-name="Pogo Tamil" group-title="Kids",Pogo Tamil
+https://jiotvmblive.cdn.jio.com/bpk-tv/Pogo_Hindi_MOB/WDVLive/index.mpd
+#EXTINF:-1 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sonic_Bangla.png" tvg-name="Sonic Bangla" group-title="Kids",Sonic Bangla
+https://jiotvmblive.cdn.jio.com/bpk-tv/Sonic_Bangla_MOB/WDVLive/index.mpd
+#EXTINF:-1 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Hindi.png" tvg-name="Sonic Hindi" group-title="Kids",Sonic Hindi
+https://jiotvmblive.cdn.jio.com/bpk-tv/sonic_Hindi_BTS/output/index.mpd
+#EXTINF:-1 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sonic_Kannada.png" tvg-name="Sonic Kannada" group-title="Kids",Sonic Kannada
+https://jiotvmblive.cdn.jio.com/bpk-tv/Sonic_Kannada_MOB/WDVLive/index.mpd
+#EXTINF:-1 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sonic_Malayalam.png" tvg-name="Sonic Malayalam" group-title="Kids",Sonic Malayalam
+https://jiotvmblive.cdn.jio.com/bpk-tv/Sonic_Malayalam_MOB/WDVLive/index.mpd
+#EXTINF:-1 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sonic_Marathi.png" tvg-name="Sonic Marathi" group-title="Kids",Sonic Marathi
+https://jiotvmblive.cdn.jio.com/bpk-tv/Sonic_Marathi_BTS/output/index.mpd
+#EXTINF:-1 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/sonic_Tamil.png" tvg-name="Sonic Tamil" group-title="Kids",Sonic Tamil
+https://jiotvmblive.cdn.jio.com/bpk-tv/sonic_Tamil_MOB/WDVLive/index.mpd
+#EXTINF:-1 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sonic_Telugu.png" tvg-name="Sonic Telugu" group-title="Kids",Sonic Telugu
+https://jiotvmblive.cdn.jio.com/bpk-tv/Sonic_Telugu_MOB/WDVLive/index.mpd
+#EXTINF:-1 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Yay_Hindi.png" tvg-name="Sony Yay Hindi" group-title="Kids",Sony Yay Hindi
+https://jiotvmblive.cdn.jio.com/bpk-tv/SonyYAYHin_MOB/WDVLive/index.mpd
+#EXTINF:-1 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Yay_Tamil.png" tvg-name="Sony Yay Tamil" group-title="Kids",Sony Yay Tamil
+https://jiotvmblive.cdn.jio.com/bpk-tv/SonyYAYTam_MOB/WDVLive/index.mpd
+#EXTINF:-1 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sony_Yay_Telugu.png" tvg-name="Sony Yay Telugu" group-title="Kids",Sony Yay Telugu
+https://jiotvmblive.cdn.jio.com/bpk-tv/SonyYAYTel_MOB/WDVLive/index.mpd
+#EXTINF:-1 tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Super_Hungama.png" tvg-name="Super Hungama" group-title="Kids",Super Hungama
+https://jiotvmblive.cdn.jio.com/bpk-tv/Super_Hungama_BTS/output/index.mpd
